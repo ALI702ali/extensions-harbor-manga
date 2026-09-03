@@ -1,11 +1,20 @@
 {
-  "name": "My Custom Repo",
+  "name": "Ali Manga Repo",
   "plugins": [
     {
-      "id": "3asq-online",
-      "name": "3asq",
+      "id": "mangadex-org",
+      "name": "MangaDex (EN/AR)",
       "version": "1.0.0",
-      "lang": "ar",
+      "lang": "all",
+      "nsfw": false,
+      "icon": "https://mangadex.org/favicon.ico",
+      "entry": "mangadex.plugin.js"
+    },
+    {
+      "id": "3asq-online",
+      "name": "3asq (عاشق)",
+      "version": "1.0.0",
+      "lang": "en",
       "nsfw": false,
       "icon": "https://3asq.online/favicon.ico",
       "entry": "3asq.plugin.js"
