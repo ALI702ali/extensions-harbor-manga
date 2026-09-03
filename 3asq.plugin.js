@@ -82,7 +82,6 @@ const plugin = {
     let doc = await getDoc("/manga/" + id + "/");
     let elements = doc.querySelectorAll("li.wp-manga-chapter a");
 
-    // في حال تحميل الفصول عبر AJAX
     if (!elements || elements.length === 0) {
       try {
         const res = await harbor.http(BASE + "/manga/" + id + "/ajax/chapters/", {
