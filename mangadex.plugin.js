@@ -18,10 +18,8 @@ const plugin = {
   name: "MangaDex",
 
   async popular(offset) {
-    const data = await harbor.http(
-      `${API_BASE}/manga?limit=32&offset=${offset}&includes[]=cover_art&order[followedCount]=desc&contentRating[]=safe&contentRating[]=suggestive`,
-      { headers: HEADERS, responseType: "json" }
-    );
+    const url = `${API_BASE}/manga?limit=32&offset=${offset}&includes%5B%5D=cover_art&order%5BfollowedCount%5D=desc&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive`;
+    const data = await harbor.http(url, { headers: HEADERS, responseType: "json" });
     if (!data || !Array.isArray(data.data)) return [];
     return data.data.map((m) => ({
       id: m.id,
@@ -31,10 +29,8 @@ const plugin = {
   },
 
   async search(query, offset) {
-    const data = await harbor.http(
-      `${API_BASE}/manga?title=${encodeURIComponent(query)}&limit=32&offset=${offset}&includes[]=cover_art&contentRating[]=safe&contentRating[]=suggestive`,
-      { headers: HEADERS, responseType: "json" }
-    );
+    const url = `${API_BASE}/manga?title=${encodeURIComponent(query)}&limit=32&offset=${offset}&includes%5B%5D=cover_art&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive`;
+    const data = await harbor.http(url, { headers: HEADERS, responseType: "json" });
     if (!data || !Array.isArray(data.data)) return [];
     return data.data.map((m) => ({
       id: m.id,
@@ -44,10 +40,8 @@ const plugin = {
   },
 
   async detail(id) {
-    const res = await harbor.http(
-      `${API_BASE}/manga/${id}?includes[]=cover_art&includes[]=author`,
-      { headers: HEADERS, responseType: "json" }
-    );
+    const url = `${API_BASE}/manga/${id}?includes%5B%5D=cover_art&includes%5B%5D=author`;
+    const res = await harbor.http(url, { headers: HEADERS, responseType: "json" });
     if (!res || !res.data) return null;
     const m = res.data;
     const authorRel = m.relationships?.find((r) => r.type === "author");
@@ -63,10 +57,8 @@ const plugin = {
   },
 
   async chapters(id) {
-    const res = await harbor.http(
-      `${API_BASE}/manga/${id}/feed?limit=100&order[chapter]=desc&translatedLanguage[]=en&translatedLanguage[]=ar&contentRating[]=safe&contentRating[]=suggestive`,
-      { headers: HEADERS, responseType: "json" }
-    );
+    const url = `${API_BASE}/manga/${id}/feed?limit=100&order%5Bchapter%5D=desc&translatedLanguage%5B%5D=en&translatedLanguage%5B%5D=ar&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive`;
+    const res = await harbor.http(url, { headers: HEADERS, responseType: "json" });
     if (!res || !Array.isArray(res.data)) return [];
     return res.data.map((ch) => ({
       id: ch.id,
