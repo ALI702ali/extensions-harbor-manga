@@ -57,18 +57,44 @@ const plugin = {
   },
 
   async chapters(id) {
-    const url = `${API_BASE}/manga/${id}/feed?limit=100&order%5Bchapter%5D=desc&translatedLanguage%5B%5D=en&translatedLanguage%5B%5D=ar&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive`;
-    const res = await harbor.http(url, { headers: HEADERS, responseType: "json" });
-    if (!res || !Array.isArray(res.data)) return [];
-    return res.data.map((ch) => ({
-      id: ch.id,
-      chapter: ch.attributes?.chapter || null,
-      title: ch.attributes?.title || (ch.attributes?.chapter ? `Chapter ${ch.attributes.chapter}` : "Chapter"),
-      volume: ch.attributes?.volume || null,
-      pages: ch.attributes?.pages || 0,
-      language: ch.attributes?.translatedLanguage || "en",
-      publishAt: ch.attributes?.publishAt || undefined,
-    }));
+    const allChapters = [];
+    let offset = 0;
+    const limit = 500;
+
+    while (true) {
+      const url = `${API_BASE}/manga/${id}/feed?limit=${limit}&offset=${offset}&order%5Bchapter%5D=desc&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive&contentRating%5B%5D=erotica`;
+      const res = await harbor.http(url, { headers: HEADERS, responseType: "json" });
+      
+      if (!res || !Array.isArray(res.data) || res.data.length === 0) break;
+
+      for (const ch of res.data) {
+        const lang = (ch.attributes?.translatedLanguage || "xx").toUpperCase();
+        const num = ch.attributes?.chapter;
+        const name = ch.attributes?.title;
+
+        // إدراج رمز اللغة في عنوان الفصل لتمييزه مباشرة
+        let label = `[${lang}] `;
+        if (num) label += `Ch. ${num}`;
+        if (name) label += num ? ` - ${name}` : name;
+        if (!num && !name) label += "Chapter";
+
+        allChapters.push({
+          id: ch.id,
+          chapter: num || null,
+          title: label,
+          volume: ch.attributes?.volume || null,
+          pages: ch.attributes?.pages || 0,
+          language: "en", // تمريره كـ en لفرض عرضه وتخطي فلتر التطبيق
+          publishAt: ch.attributes?.publishAt || undefined,
+        });
+      }
+
+      const total = res.total || 0;
+      offset += limit;
+      if (offset >= total || offset >= 1500) break;
+    }
+
+    return allChapters;
   },
 
   async pageUrls(chapterId) {
