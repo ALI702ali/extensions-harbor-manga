@@ -1,0 +1,64 @@
+{
+  "repository": {
+    "name": "Harbor Manga Arabic & English Community Sources",
+    "version": "0.1.0",
+    "description": "Community-maintained Harbor manga source collection.",
+    "type": "harbor-manga-sources"
+  },
+  "sources": [
+    {
+      "id": "3asq-ar",
+      "name": "مانجا العاشق",
+      "language": [
+        "ar"
+      ],
+      "file": "3asq-ar.plugin.js",
+      "status": "plugin-ready"
+    },
+    {
+      "id": "mangadex-ar",
+      "name": "MangaDex (العربية)",
+      "language": [
+        "ar"
+      ],
+      "file": "mangadex-ar.plugin.js",
+      "status": "plugin-ready"
+    },
+    {
+      "id": "mangalik",
+      "name": "MangaLik",
+      "language": [
+        "ar"
+      ],
+      "file": "mangalik.json",
+      "status": "selector-config; may be blocked by anti-bot"
+    }
+  ],
+  "next_sources": {
+    "arabic_priority": [
+      "HizoManga",
+      "AresManga",
+      "MangaArab",
+      "ArabianScan",
+      "TeamX",
+      "GalaxyManga",
+      "MangaInkAR",
+      "MangaGTR",
+      "OzulScans",
+      "PhenixScans",
+      "TajManga",
+      "MangaJY",
+      "Scan4Arab"
+    ],
+    "english_priority": [
+      "Comick",
+      "MangaDex",
+      "XBato",
+      "MangaBats",
+      "MangaRead",
+      "MangaPark",
+      "MangaSee",
+      "MangaBuddy"
+    ]
+  }
+}

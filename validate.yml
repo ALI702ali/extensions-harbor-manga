@@ -1,0 +1,13 @@
+name: Validate Harbor Manga Repo
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON
+        run: |
+          python -m json.tool sources.json >/dev/null
+          python -m json.tool mangalik.json >/dev/null

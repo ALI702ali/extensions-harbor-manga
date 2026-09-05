@@ -1,0 +1,33 @@
+{
+  "name": "MangaLik",
+  "iconUrl": "https://mangalik.net/favicon.ico",
+  "baseUrl": "https://mangalik.net",
+  "popularPath": "/latest/page/{page}/",
+  "searchPath": "/?s={query}&post_type=wp-manga",
+  "list": {
+    "item": "div.page-item-detail",
+    "link": "div.post-title a[href*=manga]@href",
+    "title": "div.post-title a[href*=manga]",
+    "cover": "img@data-src|img@data-lazy-src|img@src"
+  },
+  "detail": {
+    "title": "div.post-title h1|h1",
+    "cover": "div.summary_image img@data-src|div.summary_image img@data-lazy-src|div.summary_image img@src",
+    "description": "div.description-summary .summary__content|.summary__content|.manga-excerpt",
+    "author": ".author-content|.summary-content",
+    "status": ".post-status .summary-content"
+  },
+  "chapters": {
+    "item": "li.wp-manga-chapter",
+    "link": "a@href",
+    "number": "a",
+    "title": "a",
+    "date": "span.chapter-release-date"
+  },
+  "pages": {
+    "image": ".reading-content img@data-src|.reading-content img@data-lazy-src|.reading-content img@src"
+  },
+  "headers": {
+    "Referer": "https://mangalik.net/"
+  }
+}
