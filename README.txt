@@ -1,15 +1,18 @@
-Harbor manga sources — corrected set
+Harbor Manga Library — Phase 1
 
-3asq:
-- Arabic language fixed to `ar`.
-- Chapters are fetched from the site's AJAX endpoint.
-- Reader images are taken from .reading-content.
+Inventory:
+- Arabic: 33
+- English: 51
+- Total: 84
 
-MangaDex:
-- This is a Harbor PLUGIN, not a simple CSS-only JSON source.
-- It uses MangaDex's public API for manga/chapter metadata and the at-home server for page URLs.
-- It is Arabic-only by design to avoid the app treating English chapters as the source language.
+Priority:
+1. Arabic sources first.
+2. API-based sources (e.g. MangaDex) get dedicated Harbor plugins.
+3. HTML sources get CSS-selector Harbor configs/plugins after HTML verification.
+4. Sources that require browser/Cloudflare challenges are marked for dedicated handling instead of being copied blindly.
 
-MangaLik:
-- Updated browse path to the site's current /latest/ pages.
-- The simple JSON scraper may still fail intermittently if the site presents CAPTCHA/anti-bot responses.
+Upstream:
+https://github.com/AfanJurl/mihon-full-repo
+https://github.com/keiyoushi/extensions
+https://github.com/m2k3a/mangayomi-extensions
+https://github.com/yuzono/manga-repo

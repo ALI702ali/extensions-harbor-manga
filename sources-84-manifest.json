@@ -1,0 +1,625 @@
+{
+  "name": "Harbor Manga Community Source Candidates",
+  "generatedFrom": "AfanJurl/mihon-full-repo README",
+  "counts": {
+    "arabic": 33,
+    "english": 51,
+    "total": 84
+  },
+  "sources": [
+    {
+      "name": "AzoraMoon",
+      "language": "ar",
+      "homeUrl": "https://azoramoon.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaSwat",
+      "language": "ar",
+      "homeUrl": "https://mangaswat.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaLek",
+      "language": "ar",
+      "homeUrl": "https://mangalek.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "Manga3asq",
+      "language": "ar",
+      "homeUrl": "https://3asq.org",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "AresManga",
+      "language": "ar",
+      "homeUrl": "https://aresmanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "GManga",
+      "language": "ar",
+      "homeUrl": "https://gmanga.me",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaArab",
+      "language": "ar",
+      "homeUrl": "https://mangaarab.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "ArabianScan",
+      "language": "ar",
+      "homeUrl": "https://arabianscan.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "TeamX",
+      "language": "ar",
+      "homeUrl": "https://teamxmanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "GalaxyManga",
+      "language": "ar",
+      "homeUrl": "https://galaxymanga.org",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaInkAR",
+      "language": "ar",
+      "homeUrl": "https://mangaink.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaGTR",
+      "language": "ar",
+      "homeUrl": "https://mangagtr.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "HizoManga",
+      "language": "ar",
+      "homeUrl": "https://hizomanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "OzulScans",
+      "language": "ar",
+      "homeUrl": "https://ozulscans.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "PhenixScans",
+      "language": "ar",
+      "homeUrl": "https://phenixscans.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "TajManga",
+      "language": "ar",
+      "homeUrl": "https://tajmanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaJY",
+      "language": "ar",
+      "homeUrl": "https://mangajy.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "Scan4Arab",
+      "language": "ar",
+      "homeUrl": "https://scan4arab.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "ToonsGate",
+      "language": "ar",
+      "homeUrl": "https://toonsgate.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaMasr",
+      "language": "ar",
+      "homeUrl": "https://mangamasr.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaOr",
+      "language": "ar",
+      "homeUrl": "https://mangaor.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "AlwatanManga",
+      "language": "ar",
+      "homeUrl": "https://alwatanmanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaSky",
+      "language": "ar",
+      "homeUrl": "https://mangasky.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaFlame",
+      "language": "ar",
+      "homeUrl": "https://mangaflame.org",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "StarManga",
+      "language": "ar",
+      "homeUrl": "https://starmanga.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "KonohaManga",
+      "language": "ar",
+      "homeUrl": "https://konohamanga.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "HamlaManga",
+      "language": "ar",
+      "homeUrl": "https://hamlamanga.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaSnow",
+      "language": "ar",
+      "homeUrl": "https://mangasnow.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaTak",
+      "language": "ar",
+      "homeUrl": "https://mangatak.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "ElarabScans",
+      "language": "ar",
+      "homeUrl": "https://elarab-scans.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "DonghuaAR",
+      "language": "ar",
+      "homeUrl": "https://donghua-ar.com",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "MangaHolics",
+      "language": "ar",
+      "homeUrl": "https://mangaholics.net",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "ArabSeed",
+      "language": "ar",
+      "homeUrl": "https://arabseed.ws",
+      "target": "harbor-plugin",
+      "priority": "high"
+    },
+    {
+      "name": "Mangakakalot",
+      "language": "en",
+      "homeUrl": "https://www.mangakakalot.gg",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaBats",
+      "language": "en",
+      "homeUrl": "https://www.mangabats.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaRead",
+      "language": "en",
+      "homeUrl": "https://www.mangaread.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "XBato",
+      "language": "en",
+      "homeUrl": "https://xbato.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Comick",
+      "language": "en",
+      "homeUrl": "https://comick.io",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "FlameScans",
+      "language": "en",
+      "homeUrl": "https://flamescans.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaDex",
+      "language": "en",
+      "homeUrl": "https://mangadex.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaSee",
+      "language": "en",
+      "homeUrl": "https://mangasee123.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaPark",
+      "language": "en",
+      "homeUrl": "https://mangapark.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaHere",
+      "language": "en",
+      "homeUrl": "https://www.mangahere.cc",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "FanFox",
+      "language": "en",
+      "homeUrl": "https://fanfox.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaTown",
+      "language": "en",
+      "homeUrl": "https://www.mangatown.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Manganato",
+      "language": "en",
+      "homeUrl": "https://manganato.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ReadM",
+      "language": "en",
+      "homeUrl": "https://readm.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "AsuraScans",
+      "language": "en",
+      "homeUrl": "https://asuracomic.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ReaperScans",
+      "language": "en",
+      "homeUrl": "https://reaperscans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "LuminousScans",
+      "language": "en",
+      "homeUrl": "https://luminousscans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "AlphaScans",
+      "language": "en",
+      "homeUrl": "https://alphascans.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ZeroScans",
+      "language": "en",
+      "homeUrl": "https://zeroscans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaHub",
+      "language": "en",
+      "homeUrl": "https://mangahub.io",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ManhwaTop",
+      "language": "en",
+      "homeUrl": "https://manhwatop.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ManhwaClan",
+      "language": "en",
+      "homeUrl": "https://manhwaclan.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ZinManga",
+      "language": "en",
+      "homeUrl": "https://zinmanga.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "IsekaiScan",
+      "language": "en",
+      "homeUrl": "https://isekaiscan.top",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ManhuaPlus",
+      "language": "en",
+      "homeUrl": "https://manhuaplus.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "TCBScans",
+      "language": "en",
+      "homeUrl": "https://tcbscans.me",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "NightScans",
+      "language": "en",
+      "homeUrl": "https://nightscans.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "VoidScans",
+      "language": "en",
+      "homeUrl": "https://void-scans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaBuddy",
+      "language": "en",
+      "homeUrl": "https://mangabuddy.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Toonily",
+      "language": "en",
+      "homeUrl": "https://toonily.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Dynasty",
+      "language": "en",
+      "homeUrl": "https://dynasty-scans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Bato",
+      "language": "en",
+      "homeUrl": "https://bato.to",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MMScans",
+      "language": "en",
+      "homeUrl": "https://mm-scans.org",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaLife",
+      "language": "en",
+      "homeUrl": "https://manga4life.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "HatigarmScans",
+      "language": "en",
+      "homeUrl": "https://hatigarmscans.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Drakeina",
+      "language": "en",
+      "homeUrl": "https://drakeina.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaPill",
+      "language": "en",
+      "homeUrl": "https://mangapill.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaFreak",
+      "language": "en",
+      "homeUrl": "https://w15.mangafreak.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ReadManhwa",
+      "language": "en",
+      "homeUrl": "https://readmanhwa.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaOwl",
+      "language": "en",
+      "homeUrl": "https://mangaowl.to",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaInn",
+      "language": "en",
+      "homeUrl": "https://www.mangainn.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaGo",
+      "language": "en",
+      "homeUrl": "https://www.mangago.me",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "NetTruyen",
+      "language": "en",
+      "homeUrl": "https://nettruyen.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "ComicExtra",
+      "language": "en",
+      "homeUrl": "https://comicextra.me",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaStream",
+      "language": "en",
+      "homeUrl": "https://readms.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Tapas",
+      "language": "en",
+      "homeUrl": "https://tapas.io",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Webtoons",
+      "language": "en",
+      "homeUrl": "https://www.webtoons.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "MangaPlus",
+      "language": "en",
+      "homeUrl": "https://mangaplus.shueisha.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "Manhwa18",
+      "language": "en",
+      "homeUrl": "https://manhwa18.net",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "GigaScans",
+      "language": "en",
+      "homeUrl": "https://gigascans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    },
+    {
+      "name": "SuryaScans",
+      "language": "en",
+      "homeUrl": "https://suryascans.com",
+      "target": "harbor-plugin",
+      "priority": "medium"
+    }
+  ],
+  "notes": [
+    "This is an inventory/candidate manifest, not a claim that all 84 are currently healthy in Harbor.",
+    "Harbor's current manga architecture is BYOS and requires custom manga plugins.",
+    "Mihon sources may use capabilities Harbor's plain HTML scraper does not have; those need individual Harbor plugin work."
+  ],
+  "upstreamRepos": [
+    {
+      "name": "Mihon Full Repo",
+      "url": "https://github.com/AfanJurl/mihon-full-repo",
+      "index": "https://afanjurl.github.io/mihon-full-repo/index.min.json"
+    },
+    {
+      "name": "Keiyoushi Extensions",
+      "url": "https://github.com/keiyoushi/extensions",
+      "repoIndex": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
+    },
+    {
+      "name": "Mangayomi Extensions",
+      "url": "https://github.com/m2k3a/mangayomi-extensions",
+      "index": "https://m2k3a.github.io/mangayomi-extensions/index.json"
+    },
+    {
+      "name": "Yuzono Manga Repo",
+      "url": "https://github.com/yuzono/manga-repo"
+    }
+  ]
+}
